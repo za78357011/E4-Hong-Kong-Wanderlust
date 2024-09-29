@@ -4,55 +4,124 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <title>index</title>
-    <script type="module" crossorigin src="/E4-Hong-Kong-Wanderlust/assets/main-71c30259.js"></script>
-    <link rel="stylesheet" href="/E4-Hong-Kong-Wanderlust/assets/main-accf464b.css">
+    <script type="module" crossorigin src="/E4-Hong-Kong-Wanderlust/assets/main-213e1a83.js"></script>
+    <link rel="stylesheet" href="/E4-Hong-Kong-Wanderlust/assets/main-acb3a5d0.css">
   </head>
   <body>
-    <h1 class="header">我是 header</h1>
-<a href="index.html">index</a>
-<a href="about.html">about</a>
-<a href="contact.html">contact</a>
-    <h1 class="index-title">我是首頁</h1>
+    <nav class="navbar bg-body-tertiary px-4 justify-content-between">
+  <div>
+    <a class="navbar-brand" href="#">HONG KONG Wanderlust</a>
+  </div>
 
-    <div class="card" style="width: 18rem">
-      <img src="/E4-Hong-Kong-Wanderlust/assets/cat-0c0689ae.jpg" class="card-img-top" alt="cat" />
-      <div class="card-body">
-        <h5 class="card-title">卡片元件</h5>
-        <p class="card-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odit, iusto odio assumenda alias id
-          nobis earum!
-        </p>
-      </div>
-    </div>
+  <ul class="nav nav-underline">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">推薦行程</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">旅遊指南</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">關於我們</a>
+    </li>
+  </ul>
 
-    <!-- Modal 按鈕 -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      打開 modal
-    </button>
+  <ul class="nav nav-underline ">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+  </ul>
+</nav>
 
-    <!-- Modal 元件 -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal 標題</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">內容</div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
-            <button type="button" class="btn btn-primary">確定</button>
+    <section class="banner d-flex align-items-center">
+      <div class="container">
+        <div class="title-area mx-auto">
+          <div class="text-center">
+            <div class="d-flex justify-content-center">
+              <h1 class="vertical-text text-primary fw-bold mb-4">香港</h1>
+            </div>
+            <h2 class="fs-4 text-grey-scale-01">感受繁華與自然交融</h2>
           </div>
         </div>
+        <div class="text-center">
+          <button type="button" class="btn btn-dark">即刻探索</button>
+        </div>
       </div>
-    </div>
+    </section>
+
+    <section class="hot-itinerary container">
+      <div class="row">
+        <div class="col-3">
+          <div class="d-flex flex-column">
+            <h2 class="vertical-text">熱門行程</h2>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/bf68/069d/8387056387ee2743ca6aae642ef1de0c?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Lhio-munI9WKNgPTPD2an1F9EOPNr9zbyqpRhk2mpbMnoTWjIXAEt91EUnuXt5NDs6auMGmk7LyjJQxlkAottSMz4b5p6O3e7i~XhPCLuzYM7v~aVxNXkVf4Vz21nLL09cBTWxf9a58FQ74MsdIPNKeBjL2mtBzhv3C8Bk358oZBG6fhcvJ4dtADzy7lkdcnENCWJJxkfKww-qEZmi26Fnh2FA8IBi31YRwBsiLYU-6M8nDv~Km~ABkvrFLPX0fmpSiD63lBsKOGNOR7JJtUlhZ9Qq6U82xhisatng6FbUExfH9b-YYKDVBDf~wybR9-qz0p-E4GdSZGlWqn15VNSA__"
+              class="card-img-top "
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/9242/cc82/ab4b4e9e419a2f10710f973a483e281d?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Pqps4tMyDyATJlmRIWqqxyTaFJSt3njstW8oW5s1xwEMdSdI8kR4KhUcFVLhde2rHzP2rEKGqd-1oP3Fc0Mjkcpy~AB79PpTh4hvmTFJ3lHLCfjmR15AGavA4GsSMDQpTFJkW3z8DB0spYEzeSz~R2Ziy2muF7a~Tx~A0c6386rXraMk9V9TW-Idw8wARTiJBDFToX5jZjnpHmwY88uS6oa3aLZYpzqHLzWubQPrYNYkK6w3cW25EgYwQ8QwpLY6tvLBSfwM8a3d2DZHFNg9cgfJG2FNnfiwj6VvDTRabqSFe5MD3lHRw7dFOQFQ02AgF0aOJsy6Xl-8mOkNnH4QCA__"
+              class="card-img-top "
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/5753/24aa/2ed4420842d6c53c02d7cc99a039c74a?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Vk26l-KP6ZjOIg9uEzD6REFDr2VtZu35t~BOBwTzRABgd6-LwNtnu-2mgzxGGcLbyyRbF55msnkWYMf8oGcqQjgWHPeY9EuuhjpH1gN21LJ18xEdb0MrdHL8uoYfMsrPKecA22eHd73eTGOuMsjKc03ysSnzwfX6GE0B9eM51Ykd6y99XoBSF9bcYdo~YnZMG-LcIOxbkabuexVD0BWnKPhgtWYriAz7lXHywiweQpx4WhNOx15ej7J34feFSW2O7aqXfPlxb82yvO8m8aUd6YFjTZw4avl-BJo43cfiW7mSCH49h8j6wyfTFknqg~bO~n0mEf84zfjPjNyPT3bCRQ__"
+              class="card-img-top "
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- <div
+      class="d-flex justify-content-center align-items-center"
+      style="height: 100vh"
+    >
+      <h1 class="vertical-text">垂直排列的文字</h1>
+    </div> -->
 
     <footer class="footer">我是 footer</footer>
     
